@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-    maintainSameHeight($('[data-same-height="testimonial"]'));
+    maintainSameHeight($('[data-same-height="header-card-step-3"]'));
+    maintainSameHeight($('[data-same-height="content-card-step-3"]'));
 
     function maintainSameHeight($list) {
         var height = 0;

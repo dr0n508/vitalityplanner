@@ -1,7 +1,12 @@
 $(document).ready(function () {
 
-    maintainSameHeight($('[data-same-height="header-card-step-3"]'));
     maintainSameHeight($('[data-same-height="content-card-step-3"]'));
+
+    if(window.matchMedia('(min-width: 768px)').matches)
+    {
+        maintainSameHeight($('[data-same-height="header-card-step-3"]'));
+        maintainSameHeight($('[data-same-height="intro-block"]'));
+    }
 
     function maintainSameHeight($list) {
         var height = 0;

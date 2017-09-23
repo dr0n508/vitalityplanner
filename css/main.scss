@@ -47,7 +47,7 @@ body {
 
 header {
   background-color: #7ba3ce;
-  padding: 20px 0;
+  padding: 15px 0;
   .container {
     display: flex;
     align-items: flex-end;
@@ -106,7 +106,7 @@ header {
 }
 
 .head {
-  padding: 65px 0 40px;
+  padding: 55px 0 35px;
   background: url("../img/gradient.png") no-repeat 50% 0, #b3d452;
   font-family: "Gotham-Black", sans-serif;
   color: white;
@@ -315,10 +315,11 @@ footer {
     line-height: 1.4;
     a {
       color: #000000;
+      display: inline-block;
     }
   }
   .footer-bottom {
-    padding: 20px 0;
+    padding: 15px 0;
     background-color: #7ba3ce;
     .container {
       display: flex;

@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 .container {
-  max-width: 1000px;
+  max-width: 1020px;
   padding: 0 20px;
   margin: 0 auto;
   position: relative; }
@@ -76,7 +76,7 @@ body {
 
 header {
   background-color: #7ba3ce;
-  padding: 20px 0; }
+  padding: 15px 0; }
   header .container {
     display: flex;
     align-items: flex-end; }
@@ -118,7 +118,7 @@ header {
       margin-left: 10px; } }
 
 .head {
-  padding: 65px 0 40px;
+  padding: 55px 0 35px;
   background: url("../img/gradient.png") no-repeat 50% 0, #b3d452;
   font-family: "Gotham-Black", sans-serif;
   color: white;
@@ -277,9 +277,10 @@ footer .disclaimer {
   margin-bottom: 20px;
   line-height: 1.4; }
   footer .disclaimer a {
-    color: #000000; }
+    color: #000000;
+    display: inline-block; }
 footer .footer-bottom {
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: #7ba3ce; }
   footer .footer-bottom .container {
     display: flex;
